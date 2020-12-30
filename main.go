@@ -85,7 +85,7 @@ func main() {
 					break
 				}
 			}
-		} else if strings.Contains(repos[0].Version, "SINGLE") {
+		} else if strings.Contains(repos[0].Version, "MULTI") {
 			for j := 0; j < len(repos); j++ {
 				if strings.Contains(repos[j].Version, "SINGLE") {
 					fmt.Printf("%s %s %s\n", color.GreenString("->"), repos[j].Name, color.GreenString(repos[j].Version))
