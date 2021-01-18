@@ -35,7 +35,7 @@ You can use the script with adding a custom alias to your shell resource file.
 - Open `.bashrc` or `.zshrc` file and add the alias below with your go binary file path.
 
  ```shell
- alias maven-versions="./go/src/maven-lib-versions/maven-version-fetcher"
+ alias maven-versions="./go/src/maven-version-fetcher/maven-version-fetcher"
  ```
 
 - Restart the shell
