@@ -32,5 +32,8 @@ Build the go project with executing `go build` in project root directory, then r
 You can use the script with adding a custom alias to your shell resource file. 
 
 - Copy `conf.json` file to `home` directory.
-- Open `.bashrc` or `.zshrc` file and add the alias below with your go binary file path.<br> `alias dca-versions="./go/src/dca-lib-versions/dca-lib-versions"`
+- Open `.bashrc` or `.zshrc` file and add the alias below with your go binary file path.
+
+ ```alias dca-versions="./go/src/dca-lib-versions/dca-lib-versions"```
+ 
 - Restart the shell
