@@ -1,9 +1,9 @@
 # Maven Version Fetcher
 
-`v1.0.0`<br>
+`v1.0.1`<br>
 `Status: Initial`<br>
 `Created on: 30.12.2020`<br>
-`Last Update: 30.12.2020`<br>
+`Last Update: 18.01.2021`<br>
 
 ## Configuration
 
@@ -34,6 +34,9 @@ You can use the script with adding a custom alias to your shell resource file.
 - Copy `conf.json` file to `home` directory.
 - Open `.bashrc` or `.zshrc` file and add the alias below with your go binary file path.
 
- ```alias dca-versions="./go/src/dca-lib-versions/dca-lib-versions"```
- 
+ ```shell
+ alias maven-versions="./go/src/maven-lib-versions/maven-version-fetcher"
+ ```
+
 - Restart the shell
+- Run command maven-versions

@@ -1,4 +1,4 @@
-module dca-lib-versions
+module maven-version-fetcher
 
 go 1.15
 
