@@ -1,6 +1,7 @@
 package main
 
 import (
+	"os/user"
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
@@ -26,7 +27,13 @@ type Repo struct {
 }
 
 func main() {
-	jsonFile, err := os.Open("conf.json")
+	usr, err := user.Current()
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	jsonFile, err := os.Open(usr.HomeDir + "/conf.json")
 
 	if err != nil {
 		log.Fatal(err)
